@@ -6,9 +6,10 @@
     var init = function(){
         if (Discourse.SiteSettings.abbreviations_plugin_enabled == true ) {
             var conf = Discourse.SiteSettings.abbreviations_plugin_list;
-            var abbreviations = JSON.parse(conf);
+            var abbreviationCouples = conf.split('|');
 //             this is waaaay easier with $.each() but for some reason jquery functions don't work when saving
-            for (var abkey in abbreviations){
+            for (var i = 0; i < abbreviationCouples.length; i++) {
+                var keyandvalue = abbreviationCouples[i].split(':');
                 (function(key,value){
                     Discourse.Dialect.inlineRegexp({
                         start: key,
@@ -18,7 +19,7 @@
                             return ['abbr', {title: value}, key ];
                         }
                     });
-                })(abkey,abbreviations[abkey]);
+                })(keyandvalue[0],keyandvalue[1]);
             }
         }
     };
