@@ -1,13 +1,10 @@
 (function() {
 
-//     example of conf sintaxis:
-//     var conf = '{"IMHO": "In My Humble Opinion","EMMO": "En Mi Modesta Opinión"}';
-    
     var init = function(){
         if (Discourse.SiteSettings.abbreviations_plugin_enabled == true ) {
             var conf = Discourse.SiteSettings.abbreviations_plugin_list;
             var abbreviationCouples = conf.split('|');
-//             this is waaaay easier with $.each() but for some reason jquery functions don't work when saving
+//             this is waaaay easier with $.each() but for some reason jquery functions don't work when saving messages
             for (var i = 0; i < abbreviationCouples.length; i++) {
                 var keyandvalue = abbreviationCouples[i].split(':');
                 (function(key,value){
