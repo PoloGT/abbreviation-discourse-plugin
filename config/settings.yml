@@ -3,5 +3,5 @@ plugins:
     default: true
     client: true
   abbreviations_plugin_list:
-    default: ABB:Antiga Barbearia do Bairro|ADP:Acqua Di Parma|AoS:Art of Shaving|ATT:Above The Tie|B&B:BadgerandBlade.com|B&M:Barrister & Man|C&E:Crabtree and Evelyn|CBs:Caties Bubbles|CDB:Culito de Bebé|CDBF:Culito de Bebé Feliz|CRSW:Cold River Soap Works|DRH:Doctor Harrys|DPM:De muy buena calidad|EDP:Eau de Parfum| perfume|EDT:Eau de Toilette| colonia|E&J:Edwin Jagger|EMHO:En Mi Humilde Opinión|EMMO:En Mi Modesta Opinión|GFT:Geo F Trumper|HBG:HoneyBee Gardens|HTGAM:How To Grow A Moustache|LPL:Le Pere Lucien|MdC:Martin de Candre|M&F:Morris and Forndran|MWF:Michell Wool Fat|MWS:Mystic Water Soaps|NOS:New Old Stock. Nuevo pero de Stock antiguo|PAA:Phoenix Artisans Accouttrements|PPF:Petal Pusher Fancies|QCS:Queen Charlotte Soaps|SCNHG:Sin Corte No Hay Gloria|SMDF:Santa María Del Fiore (Razorock)|SMN:Santa Maria Novella|TdN:Teta de Novicia|T&H:Trueffit & Hill|TGN:The Golden Nib|TOBS:Taylor of Old Bond Street|TSR:The shaving Room|W&B:Wade&Butcher|WSP:Wet Shaving Products
+    default: IMHO:In My Honest Opinion|YMMV:Your Mileage May Vary|lol:Laughing Out Loud 
     client: true
