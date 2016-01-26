@@ -13,7 +13,7 @@ This plugin translates certain whitelisted words to a HTML `<abbr>` tag. Example
 ##Initial Configuration
 ----------
 
-Modify the variable `abbreviations_plugin_list` in the file `settings.yml` so it contains couples of abbreviation and meaning separated by a pipe `(|)`. The abbreviation and its meaning must be separated by a colon `(:)` .
+Modify the variable `abbreviations_plugin_list` in the file `settings.yml` so it contains couples of abbreviation and meaning separated by a pipe `(|)`. The abbreviation/acronym and its meaning must be separated by a colon `(:)` .
  Example:
 
 ```yaml
