@@ -27,3 +27,12 @@ plugins:
 ```
 You cannot use colons  `(:)` or pipes `(|)` in the definition of your abbreviations.
 
+You can keep adding more acronyms through the admin panel later on.
+
+##Old posts
+----------
+Old posts can take advantage of this feature by issuing the command:
+```
+rake posts:rebake
+```
+A moderator can use the "Rebuild HTML" feature on a single message, to get advantage of this plugin.
