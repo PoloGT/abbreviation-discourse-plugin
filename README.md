@@ -8,7 +8,7 @@ This plugin translates certain whitelisted words to a HTML `<abbr>` tag. Example
 
 * Create a list of abbreviations
 * Configurable through admin settings
-* Option to disable the plugin through the admin settings
+* Option to disable the plugin through the admin settings, but restarting the server application is still required.
 
 ##Initial Configuration
 ----------
