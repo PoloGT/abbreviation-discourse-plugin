@@ -8,7 +8,7 @@ This plugin translates certain whitelisted words to a HTML `<abbr>` tag. Example
 
 * Create a list of abbreviations
 * Configurable through admin settings
-* Option to disable the plugin through the admin settings, but restarting the server application is still required.
+* Option to disable the plugin through the admin settings.
 
 ##Initial Configuration
 ----------
@@ -27,7 +27,7 @@ plugins:
 ```
 You cannot use colons  `(:)` or pipes `(|)` in the definition of your abbreviations.
 
-You can keep adding more acronyms through the admin panel later on.
+You can keep adding more acronyms through the admin panel later on, but restarting Discourse is still required.
 
 ##Old posts
 ----------
