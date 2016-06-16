@@ -10,6 +10,8 @@ This plugin translates certain whitelisted words to a HTML `<abbr>` tag. Example
 * Configurable through admin settings
 * Option to disable the plugin through the admin settings.
 
+**NOTE:** It is required to type at least one space either before or after the acronym, so the plugin doesn't interfere with existing features of discourse.
+
 ##Initial Configuration
 ----------
 

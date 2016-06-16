@@ -10,10 +10,10 @@ Discourse.Abbreviations = {
       });
 
       abbreviationCouples.forEach(function(couple) {
-        text = text.replace(new RegExp(couple[0] + "\\b"), '<abbr title="' + couple[1] + '">' + couple[0] + '</abbr>');
+        //required a space either before or after the acronym
+        text = text.replace(new RegExp("\\b((\\s)" + couple[0] + "|" + couple[0] + "(?=\\s))\\b","g"), '$2<abbr title="' + couple[1] + '">'+ couple[0] +'</abbr>');
       });
     }
-
     return text;
   }
 };
