@@ -29,7 +29,7 @@ plugins:
 ```
 You cannot use colons  `(:)` or pipes `(|)` in the definition of your abbreviations.
 
-You can keep adding more acronyms through the admin panel later on, but restarting Discourse is still required.
+You can keep adding more acronyms through the admin panel later on.
 
 ##Old posts
 ----------
