@@ -6,6 +6,4 @@
 
 enabled_site_setting :abbreviations_plugin_enabled
 
-register_asset "javascripts/abbreviations_dialect.js", :server_side
-register_asset "javascripts/lib/abbreviations.js", :server_side
 register_asset "stylesheets/abbreviation_plugin.css"
